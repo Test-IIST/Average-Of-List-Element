@@ -1,28 +1,49 @@
 Objective:
+The goal of this assignment is to practice working with lists in Python. Students are required to create a list of numbers and perform operations such as finding the sum and average of the elements in the list.
 
-The goal of this assignment is to create a Python program that prompts the user for the length and width of a rectangle and then calculates and prints its area.
+1. Instructions:
+      
+       1. Create a list of numbers (integer or floating-point) based on user input.
+       2. Calculate the sum of all the numbers in the list.
+       3. Calculate the average of the numbers in the list.
 
-Instructions:
 
-Write a Python program that does the following:
+2. Constraints:
 
-Prompt the user to enter the length and width of a rectangle.
-Display the calculated area to the user.
-Ensure that the program can handle edge cases, such as when the user provides non-numeric input.
+        The program should handle input constraints:
 
-Input Constraints:
+        1. define the size (number of elements) of the list.
+        2. The program should ask to enter each element of the list.
 
-The length and width should be positive numbers.
-The program should handle invalid inputs, such as negative numbers or non-numeric input.
+   
+3. Once the list is populated, the program should calculate and display the sum and average.
+
+4. Ensure that the program can handle various edge cases, such as an empty list or a list containing negative numbers.
 
 Example:
 ```python
-Input1: Length = 5, Width = 3
-Expected Output1: "The area of the rectangle is 15 square units.
+Input1:
+  Enter the number of elements: 5
+  Enter element 1: 10
+  Enter element 2: 20
+  Enter element 3: 30
+  Enter element 4: 40
+  Enter element 5: 50
 
-Input2: Length = -2, Width = 6
-Expected Output2: "Invalid input. Please provide positive numbers.
+Output1:
+  Sum of the numbers: 150
+  Average of the numbers: 30.0
 
-Input3: Length = 7, Width = "abc"
-Expected Output3: "Invalid input. Please provide numeric values for length and width.
+
+
+Input2:
+  Enter the number of elements: 3
+  Enter element 1: -5
+  Enter element 2: 0
+  Enter element 3: 5
+
+Output2:
+  Sum of the numbers: 0
+  Average of the numbers: 0.0
+
 ```
