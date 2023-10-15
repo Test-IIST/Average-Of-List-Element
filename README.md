@@ -4,7 +4,7 @@
 Write a Python program that calculates the average of elements in a list of integers.
 
 ### Input
-- A list of `n` integers, where each integer is between -10^6 and 10^6.
+- A list of integers, where each integer is between -10^6 and 10^6.
 
 ### Constraints
 - The list can contain at most 1000 elements.
