@@ -5,7 +5,11 @@ expectedIO = IOWrapper()
 
 def test_hello():
     expectedList = ["0","5","20","3"]
-    testList = [[1000000, -1000000],[15, -10, 20, -5],[10, 20, 30],[1, 2, 3, 4, 5]]
+    testList = [[1000000, -1000000],
+                [15, -10, 20, -5],
+                [10, 20, 30],
+                [1, 2, 3, 4, 5]
+                ]
     i=0
     for expected in expectedList:
         testArg = testList[i]                                                                  # use these lOCs while using list object
